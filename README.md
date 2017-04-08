@@ -5,9 +5,9 @@
 **1、创建canvas标签**，id和daily-timeline.js中保持一致即可，宽高亦可修改，同时记得引入js
 
 ```
-	<canvas id="dailyTimeline" width="800px" height="1440px" style=""></canvas>
+<canvas id="dailyTimeline" width="800px" height="1440px" style=""></canvas>
 
-	<script type="text/javascript" src="js/daily-timeline.js"></script>
+<script type="text/javascript" src="js/daily-timeline.js"></script>
 ```
 
 **2、绘制日程格子**
@@ -55,4 +55,4 @@ redrawCanvas();
 调用该方法后，重绘时间轴，清除时间轴里的所有日程格子。
 
 <br/>
-（注：请遵循[CC-BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/3.0/cn/)协议）
+注：请遵循[CC-BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/3.0/cn/) 协议
