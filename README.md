@@ -18,8 +18,8 @@ createSchedule(startTime, endTime, contentText);
 
 参数：
 
-startTime，开始时间（格式"xx:xx"）
-endTime，结束时间（格式"xx:xx"）
+startTime，开始时间（格式"xx:xx"）<br/>
+endTime，结束时间（格式"xx:xx"）<br/>
 contentText，文本内容（可选）
 
 例如：
