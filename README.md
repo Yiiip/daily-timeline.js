@@ -56,6 +56,7 @@ redrawCanvas();
 <br/>
 
 **实际项目中使用的效果：**
+
 <img width="640px" src="http://img.blog.csdn.net/20170408110538448?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvU2tpcHBlcktldmlu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="实际效果"/>
 
 <br/>
