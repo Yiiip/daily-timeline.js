@@ -57,7 +57,7 @@ redrawCanvas();
 
 **实际项目中使用的效果：**
 
-<img width="640px" src="https://user-images.githubusercontent.com/10251493/48967792-eff17a80-f020-11e8-90ce-3525a75b2b9f.png" alt="实际效果"/>
+<img width="640px" src="https://github.com/Yiiip/daily-timeline.js/blob/master/screenshots/screenshot04.png" alt="实际效果"/>
 
 <br/>
 注：请遵循[CC-BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/3.0/cn/) 协议
