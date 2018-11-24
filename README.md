@@ -32,7 +32,7 @@ createSchedule("11:20", "13:00", "打豆豆");
 
 效果：
 
-<img width="512px" src="http://img.blog.csdn.net/20170408121135933?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvU2tpcHBlcktldmlu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="日程格子"/>
+<img width="512px" src="https://github.com/Yiiip/daily-timeline.js/blob/master/screenshots/screenshot01.png" alt="日程格子"/>
 
 **3、空数据时显示友好提示**
 
@@ -44,7 +44,7 @@ drawEmptyView("今天还没有数据哦 ^_^");
 
 效果：
 
-<img width="512px" src="http://img.blog.csdn.net/20170408121911639?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvU2tpcHBlcktldmlu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="空数据"/>
+<img width="512px" src="https://github.com/Yiiip/daily-timeline.js/blob/master/screenshots/screenshot02.png" alt="空数据"/>
 
 **4、重绘时间轴**
 
@@ -57,7 +57,7 @@ redrawCanvas();
 
 **实际项目中使用的效果：**
 
-<img width="640px" src="http://img.blog.csdn.net/20170408110538448?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvU2tpcHBlcktldmlu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="实际效果"/>
+<img width="640px" src="https://user-images.githubusercontent.com/10251493/48967792-eff17a80-f020-11e8-90ce-3525a75b2b9f.png" alt="实际效果"/>
 
 <br/>
 注：请遵循[CC-BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/3.0/cn/) 协议
