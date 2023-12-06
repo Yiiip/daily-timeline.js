@@ -7,25 +7,31 @@
 	</head>
 
 	<body>
+		<button onclick="defaultDemo()">默认示例</button>
 		<button onclick="refreshTimeline()">刷新数据</button>
 		<button onclick="setEmptyView('今天还没有数据哦 ^_^')">无数据</button>
 		<div class="root">
 			<!-- the canvas id can be changed both html and js -->
-			<canvas id="dailyTimeline" width="800px" height="1440px" style=""></canvas>
+			<canvas id="dailyTimeline" width="500px" height="1400px"></canvas>
 		</div>
 	</body>
 	
-	<script type="text/javascript" src="js/daily-timeline.js"></script>
+	<script type="text/javascript" src="daily-timeline.js"></script>
 	<script type="text/javascript">
 		
 		var startVars = [
 			"08:30", "09:10","10:15","11:40", "12:05"
 		];
 		
-		createSchedule("08:20", "09:10", "吃饭");
-		createSchedule("09:45", "10:10", "睡觉");
-		createSchedule("11:20", "13:00", "打豆豆");
-		createSchedule("15:50", "17:20");
+		defaultDemo();
+
+		function defaultDemo() {
+			redrawCanvas();
+			createSchedule("08:20", "09:10", "会议室 A");
+			createSchedule("09:45", "10:10", "会议室 B");
+			createSchedule("11:20", "13:00", "会议室 C");
+			createSchedule("15:00", "16:20", "会议室 D");
+		}
 		
 		function refreshTimeline() {
 			redrawCanvas();

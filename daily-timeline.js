@@ -15,14 +15,14 @@ var COLOR_PRIMARY = "#738FFE";
 var COLOR_PRIMARY_TRANSPARENT = "rgba(115, 143, 254, 0.6)";
 var COLOR_ACCENT = "#A7B9FF";
 var COLOR_WARN = "#FF5555";
-var COLOR_WARN_TRANSPARENT = "rgba(255, 85, 85, 0.75)";
+var COLOR_WARN_TRANSPARENT = "rgba(255, 85, 85, 0.7)";
 var COLOR_POSITIVE = "#98DB4B";
 var COLOR_FONT_BLACK = "#222222";
 
 var BASE_TIME_HOUR = 8;
 var BASE_TIME_MINUTES = BASE_TIME_HOUR * 60;
 
-var SCHEDULE_WIDTH = 180; // the width of schedule grid
+var SCHEDULE_WIDTH = 150; // the width of schedule grid
 var SCHEDULE_MARGIN_LEFT = 120;
 
 var HOUR_LINE_Y_INTERVAL = 120;
@@ -108,7 +108,7 @@ function createSchedule(startTime, endTime, contentText) {
 	ctx.fillStyle = COLOR_WARN_TRANSPARENT;
 	ctx.lineWidth = 1;
 	ctx.strokeStyle = COLOR_WARN;
-    ctx.strokeRect(HOUR_LINE_X_START + SCHEDULE_MARGIN_LEFT, startY, SCHEDULE_WIDTH, scheduleHeight);
+  ctx.strokeRect(HOUR_LINE_X_START + SCHEDULE_MARGIN_LEFT, startY, SCHEDULE_WIDTH, scheduleHeight);
 	ctx.fillRect(HOUR_LINE_X_START + SCHEDULE_MARGIN_LEFT, startY, SCHEDULE_WIDTH, scheduleHeight); //左上角x, y 和 宽,高
 
 	if (contentText == null) {
